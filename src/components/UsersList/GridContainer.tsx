@@ -15,7 +15,7 @@ const Grid = styled.div`
 const GridContainer: React.FC = () => {
   return (
     <Grid>
-      {userData.slice(0, 6).map((user) => {
+      {userData.slice(0, 9).map((user) => {
         return (
           <UserCard
             key={user.id}

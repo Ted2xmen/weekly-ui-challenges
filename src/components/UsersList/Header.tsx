@@ -33,6 +33,7 @@ const SVG = styled.svg`
 
 const ListWrapper = styled.ul`
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 15px;
 `;
