@@ -11,15 +11,17 @@ const MainContainter = styled.div`
   width: 100%;
   border: 1px solid red;
   justify-content: center;
-  /* background-color: #e2e9f9; */
+  background-color: #bcc6e7;
+  font-family: "Times New Roman", Times, serif;
 `;
 
 const ProjectContainer = styled.div`
-    margin: 50px;
-    padding: 70px 50px;
-    border: 1px solid #ccc;
-    border-radius: 25px;
-`
+  margin: 50px;
+  padding: 70px 50px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+ background-color: #ffff; 
+`;
 
 const UserListContainer = () => {
   return (
