@@ -20,18 +20,12 @@ const ProjectContainer = styled.div`
   padding: 70px 50px;
   border: 1px solid #ccc;
   border-radius: 25px;
- background-color: #ffff; 
+  background-color: #ffff;
 `;
 
 const UserListContainer = () => {
   return (
     <>
-      <a
-        href="https://uidesigndaily.com/posts/figma-users-list-card-day-1542"
-        
-      >
-        https://uidesigndaily.com/posts/figma-users-list-card-day-1542
-      </a>
       <MainContainter>
         <ProjectContainer>
           <Header />
