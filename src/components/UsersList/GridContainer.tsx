@@ -10,8 +10,6 @@ const Grid = styled.div`
   gap: 20px;
 `;
 
-
-
 const GridContainer: React.FC = () => {
   return (
     <Grid>

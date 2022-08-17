@@ -60,7 +60,7 @@ const Title = styled.h1`
   margin-top: 50px;
 `;
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <>
       <Title>Users</Title>
